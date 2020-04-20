@@ -1,0 +1,111 @@
+body{
+  margin:0;
+  padding:0;
+  font-family:sans-serif;
+}
+.container{
+  padding:1rem 4rem;
+}
+.col-container{
+  display:flex;
+}
+.title{
+  width:100%;
+  padding-top:2rem;
+  text-align:center;
+}
+.header{
+  position:fixed;
+  width:100%;
+  background:#fff;
+  border-bottom:1px solid #efefef;
+}
+#main-title{
+  text-align:center;
+  width:100%;
+  padding-top: 1rem;
+}
+#main-title > span {
+  background:red;
+  padding:7px 10px;
+  border-radius:7px;
+  color:#fff;
+}
+
+#nav-links{
+  list-style:none;
+  text-align:center;
+}
+#nav-links > li{
+  display:inline-block;
+  padding: 5px 7px;
+  margin: 10px 5px;
+}
+#nav-links > li > a{
+  text-decoration:none;
+  font-weight:bold;
+  color: #333;
+  transition: all .1s;
+}
+#nav-links > li > a:hover{
+  color: #f00;
+}
+
+/* Styles for Home */
+#home{
+  height:auto;
+  padding-top:11rem;
+}
+#home > img {
+  width:100%;
+  height:auto;
+}
+
+/* Styles for About */
+#about{
+  height:auto;
+}
+#about p{
+  line-height:25px;
+}
+
+/* Styles for services */
+#services .col{
+  width:33%;
+  margin:1rem;
+  padding: 7px 2rem;
+  border: 1px solid #ef0000;
+}
+#services .col > h3{
+  color:#ef0000;
+}
+
+#sc-ad .col-container > .col{
+  width:50%;
+  margin:1rem;
+  padding: 7px 2rem;
+}
+#sc-ad .col-container > .col p{
+  line-height:1.5;
+}
+#sc-ad .col-container > .col img{
+  width:100%;
+  height:auto;
+}
+
+#contact ul{
+  list-style:none;
+  text-align:center;
+}
+ul > li{
+  display:inline-block;
+  padding: 5px 7px;
+  margin: 10px 5px;
+}
+
+/* styles for footer */
+footer{
+  background:#efaaaa;
+  padding:1rem 3rem;
+  text-align:center;
+}
